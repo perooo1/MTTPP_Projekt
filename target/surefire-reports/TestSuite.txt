@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 134.18 s <<< FAILURE! - in TestSuite
+TestCaseGetSignUpDesc(scripts.TestCase)  Time elapsed: 26.385 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0TOJTL4', ip: '192.168.0.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., appPackage: com.plenart.organizeme, databaseEnabled: false, desired: {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., deviceName: emulator, iosInstallPause: 8000, platformName: android, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, iosInstallPause: 8000, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000, webStorageEnabled: false}
+Session ID: 6685d845-8595-406a-a26d-5fd23e331f45
+*** Element info: {Using=id, value=com.plenart.organizeme:id/btn_sign_in_sign_up_activity}
+	at scripts.TestCase.TestCaseGetSignUpDesc(TestCase.java:73)
+
+TestCaseRegisterUser(scripts.TestCase)  Time elapsed: 26.327 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0TOJTL4', ip: '192.168.0.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., appPackage: com.plenart.organizeme, databaseEnabled: false, desired: {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., deviceName: emulator, iosInstallPause: 8000, platformName: android, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, iosInstallPause: 8000, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000, webStorageEnabled: false}
+Session ID: fb096cab-6d37-49d3-a2fd-96e939bc2436
+*** Element info: {Using=id, value=com.plenart.organizeme:id/btn_sign_in_sign_up_activity}
+	at scripts.TestCase.TestCaseRegisterUser(TestCase.java:91)
+
+TestCaseGetTaskDueDate(scripts.TestCase)  Time elapsed: 22.821 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0TOJTL4', ip: '192.168.0.167', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., appPackage: com.plenart.organizeme, databaseEnabled: false, desired: {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., deviceName: emulator, iosInstallPause: 8000, platformName: android, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, iosInstallPause: 8000, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, wdaStartupRetries: 4, wdaStartupRetryInterval: 20000, webStorageEnabled: false}
+Session ID: 3fb73df8-cb80-4564-b2d7-e9ff03fa216e
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]}
+	at scripts.TestCase.TestCaseGetTaskDueDate(TestCase.java:139)
+

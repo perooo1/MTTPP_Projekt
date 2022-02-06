@@ -1,0 +1,47 @@
+[INFO] 
+[INFO] ----------------------< org.example:mttppProject >----------------------
+[INFO] Building mttppProject 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mttppProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ mttppProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mttppProject ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Labosi2021\MTTPP\projekt\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ mttppProject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ mttppProject ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+sij 03, 2022 8:07:02 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.994 s <<< FAILURE! - in TestSuite
+[ERROR] TestCaseGetTaskDueDate(scripts.TestCase)  Time elapsed: 20.327 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0TOJTL4', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., appPackage: com.plenart.organizeme, databaseEnabled: false, desired: {VERSION: 9.0, app: D:\Labosi2021\MTTPP\projekt..., deviceName: emulator, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 66, takesScreenshot: true, viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dbe25757-95c0-4d7e-83e8-9305bb38dcab
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.widget.LinearLayout}
+	at scripts.TestCase.TestCaseGetTaskDueDate(TestCase.java:53)
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   TestCase.TestCaseGetTaskDueDate:53 » NoSuchElement An element could not be loc...
+[INFO] 
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 

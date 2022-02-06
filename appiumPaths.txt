@@ -1,0 +1,58 @@
+{
+"app": "D:\\Labosi2021\\MTTPP\\projekt\\OrganizeMe_base.apk",
+"VERSION": "9.0",
+"deviceName": "emulator",
+"platformName": "Android"
+}
+
+
+
+
+intro ekran:
+	sign in button id: com.plenart.organizeme:id/btn_sign_in_intro
+	sign up button id: com.plenart.organizeme:id/btn_sign_up_intro
+login ekran:
+	email: com.plenart.organizeme:id/et_email_sign_in_activity
+	pass: com.plenart.organizeme:id/et_password_sign_in_activity
+	sign in btn: com.plenart.organizeme:id/btn_sign_in_sign_in_activity
+sign up ekran:
+	name: com.plenart.organizeme:id/et_name_sign_up_activity
+	email: com.plenart.organizeme:id/et_email_sign_up_activity
+	pass: com.plenart.organizeme:id/et_password_sign_up_activity
+	sign up btn: com.plenart.organizeme:id/btn_sign_up_sign_up_activity
+main activity:
+	movie time: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout[2]/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.TextView[1]
+task list activity:	
+	tri tockixe gore: //android.widget.ImageView[@content-desc="More options"]
+	menu(tv): /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView
+naslov iz task list activ: 	xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.widget.TextView
+				text: Movie time 🍿🎥
+				res-id: com.plenart.organizeme:id/title
+valjda menu bijeli: 	xpath:/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout/android.widget.LinearLayout
+			res-id: com.plenart.organizeme:id/content
+members activity:
+	markov email resourceID: com.plenart.organizeme:id/tv_member_email_item_member
+	natrag xpath: //android.widget.ImageButton[@content-desc="Navigate up"] 
+tla:
+	hp & ps XPATH: //*[@text="HP and the Philosopher's stone"]
+	hp and ps res id: com.plenart.organizeme:id/tv_card_name
+	isto to text: HP and the Philosopher's stone
+	isto xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/android.widget.LinearLayout/android.widget.TextView[1]
+task details activity:
+	due date resource-id: com.plenart.organizeme:id/tv_select_due_date
+	naslov kartice: res id: om.plenart.organizeme:id/et_name_card_details
+	btn update: res id: com.plenart.organizeme:id/btn_update_card_details
+	btn update xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.Button
+hamburger menu: XPath: //android.widget.ImageButton[@content-desc="Navigate up"]
+
+profilna navigacija: 	resource-id: com.plenart.organizeme:id/nav_my_profile
+			xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[2]
+ime editetext: 	resource-id: com.plenart.organizeme:id/et_name_my_profile_activity
+		xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.EditText
+update btn: 	resource-id: com.plenart.organizeme:id/btn_update_my_profile_activity
+		xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.Button
+btn za natrag(konkretno sad sa my profilea): xpath: //android.widget.ImageButton[@content-desc="Navigate up"]
+navigacija za sign out: res-id: com.plenart.organizeme:id/nav_sign_out
+			xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[3]
+navigacija za home: 	res-id: com.plenart.organizeme:id/nav_home
+			xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout/androidx.recyclerview.widget.RecyclerView/androidx.appcompat.widget.LinearLayoutCompat[1]
